@@ -1,0 +1,11 @@
+{
+    "name": "torounit/composer-c5",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "concrete5/concrete5": "dev-develop"
+    },
+    "require-dev": {
+        "composer/installers": "^1.2"
+    }
+}

@@ -5,6 +5,7 @@ application/config
 application/files
 !application/files/.gitkeep
 .htaccess
+
 ### Composer template
 composer.phar
 /vendor/

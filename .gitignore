@@ -1,8 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Concrete5 template
-config/site.php
-application/files/cache/*
-application/files/tmp/*
+application/config
+!application/config/.gitkeep
+application/files
+!application/files/.gitkeep
 .htaccess
 ### Composer template
 composer.phar
@@ -12,5 +13,3 @@ composer.phar
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 composer.lock
 
-#application/files
-application/files/cache

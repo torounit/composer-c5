@@ -1,9 +1,12 @@
 {
     "name": "torounit/composer-c5",
     "type": "project",
+    "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": false,
     "require": {
-        "concrete5/concrete5": "dev-develop"
+        "concrete5/concrete5": "^8.0",
+        "worldskills/concrete5-worldskills": "^0.9.17"
     },
     "require-dev": {
         "composer/installers": "^1.2"

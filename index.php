@@ -15,7 +15,11 @@ $__DIR__ = 'vendor/concrete5/concrete5';
  * Override some of the concrete5 dcore directory location
  * ----------------------------------------------------------------------------
  */
+
+defined( 'DIR_BASE' ) or define( 'DIR_BASE', $__DIR__ );
 defined( 'DIRNAME_CORE' ) or define( 'DIRNAME_CORE', $__DIR__ . DIRECTORY_SEPARATOR . 'concrete' );
+defined( 'DIR_APPLICATION' ) or define( 'DIR_APPLICATION', $__DIR__ . DIRECTORY_SEPARATOR . 'application' );
+
 /*
  * ----------------------------------------------------------------------------
  * Add the vendor path to the list of include paths
